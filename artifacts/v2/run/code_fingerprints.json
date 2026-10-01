@@ -1,0 +1,23 @@
+{
+  "code\\business_entity_resolution\\v2\\benchmark_features.py": "fbe348e47c8a02e945a7262e2d9cf0aeb7f381982a5f5b11fc3d887a64fd4f1c",
+  "code\\business_entity_resolution\\v2\\benchmark_parallel.py": "8b0ff3bb5571022b6bc7e2d72cd14542fd47d474a285b5bd04af0001b6ae975a",
+  "code\\business_entity_resolution\\v2\\common.py": "829b253e3ff48e71d6336ec6b77828639cec81cc50f42f68b42805274ebf5a6f",
+  "code\\business_entity_resolution\\v2\\compare_v1.py": "5b0f2d79c9312574af9d3fdaf4253be2688cadb83a16a5d6375d13865e1c44c6",
+  "code\\business_entity_resolution\\v2\\evaluate.py": "bc8576c5f47bb427f726462d4bbe230a74224642958b4c353c0cdfea7aaf7694",
+  "code\\business_entity_resolution\\v2\\hashed_index.py": "771d7c27b8db1137b8eff3a7cf1accf0f740abbd3c52aabd800ef531d813c5f7",
+  "code\\business_entity_resolution\\v2\\inspect_misses.py": "458a21f0284958ac268e7cccb64a11f5e9340b35954f87d3c193df16a2f4b652",
+  "code\\business_entity_resolution\\v2\\pair_features.py": "d6bc42f89c1c40eab5b9a54883468ee86134e6b718d7995725d5dd6591a1ed0f",
+  "code\\business_entity_resolution\\v2\\pilot.py": "8cb9a7b1ff742cd3b4f7042da52dfa72e4fb508440ca99bc065d0d393554323f",
+  "code\\business_entity_resolution\\v2\\profile_routes.py": "0a236a66b8c9947ef9077439fc076f8c03c8875697d8626112eafa56067bc550",
+  "code\\business_entity_resolution\\v2\\profile_v1.py": "0ab9b034c315b51d47a4fb698b4ba184d2acda4ea95f8db73e9856f2d60fd3de",
+  "code\\business_entity_resolution\\v2\\README.md": "72d986105562b79cb95ce563baa4b61ff9440a961a59828c504590614497ae72",
+  "code\\business_entity_resolution\\v2\\report_v2.py": "24ae515a2c9579b444abaae8a1a54f4351aed5d5600776bf943e1a52479e2023",
+  "code\\business_entity_resolution\\v2\\reproduce.ps1": "ddf2b46f74fe2619c78f2f52b9d19f0f9e9f26819cff726a89ee6c145d8d5d2e",
+  "code\\business_entity_resolution\\v2\\requirements.txt": "d592e04685c6c32648492d5b66f5f94d64279ad4c4089728ed6fb02c29ae8760",
+  "code\\business_entity_resolution\\v2\\run_features.py": "8d1036884f671bf7d6bd4d521d17806557a8a8112f5fed01cc2bcc40156bf07b",
+  "code\\business_entity_resolution\\v2\\sparse_retrieval.py": "e28948346972aab74eef7306a6a119cd6528fa65f5cf7160d50efcde3e413255",
+  "code\\business_entity_resolution\\v2\\split.py": "a6374c6c67cf60fa5c30df8a01a2154d9b4cb0eec97c0a9b1f69c0a949e5ee68",
+  "code\\business_entity_resolution\\v2\\targeted.py": "c7345596383e55340cab7b41efbad7cdfc85e8f23dea0d036397595a159e518b",
+  "code\\business_entity_resolution\\v2\\test_v2.py": "5da16379e8cbae075ef330f73dd6ef6374dd98ffa1ddb0cbdd13655eae0e5060",
+  "code\\business_entity_resolution\\v2\\verify_v2.py": "e854417a4ea414baea6d08742660db73c4d34379850d93cfb0f55a4d173d009f"
+}

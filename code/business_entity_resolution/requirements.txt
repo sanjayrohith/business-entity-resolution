@@ -1,0 +1,2 @@
+# Python 3.12.14 with built-in SQLite 3.53.1 (FTS5 + trigram tokenizer required)
+numpy==2.3.5

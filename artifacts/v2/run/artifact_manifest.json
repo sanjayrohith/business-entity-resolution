@@ -1,0 +1,38 @@
+{
+  "frozen_selection.json": {
+    "bytes": 6132,
+    "sha256": "00b47de6af5a0c8b626a363d5f4e2a6c6e92ceff31b072b3bc70e5e60413ebe5"
+  },
+  "confirmation_results.json": {
+    "bytes": 51492,
+    "sha256": "c324ded5468fd2155bb413652547eadcbf839e5ea0340055bdf32ee468b9c7df"
+  },
+  "confirmation_candidates.tsv": {
+    "bytes": 17503970,
+    "sha256": "1e10a92a1e232dd007873cb3ea30af2c0dca9c19305399744b149df7cdd1dbd8"
+  },
+  "confirmation_logistic.tsv": {
+    "bytes": 127944,
+    "sha256": "9250f09082b8d15ea2d3dacbe73978997ab3438853fecea51eb510fefa6caa87"
+  },
+  "confirmation_lightgbm.tsv": {
+    "bytes": 135804,
+    "sha256": "db22af6a444b965342d0d069fd619eeaaad7beb728eb621c73e9518f6d819632"
+  },
+  "confirmation_xgboost.tsv": {
+    "bytes": 134080,
+    "sha256": "eb994353d6a9e5e06e34aa9630094b55d7dce75580589817b256e74bf0e50ada"
+  },
+  "lightgbm.txt": {
+    "bytes": 2143350,
+    "sha256": "996699f3d3bfc6c8c136f3f9c7bf5572413e707ab0b9a660ba0d7b9f4a0542e5"
+  },
+  "xgboost.ubj": {
+    "bytes": 1770840,
+    "sha256": "d10570518a8ddffb8adf179d96d90c82a5298152c0fff4fd5c72c7d094fbf32b"
+  },
+  "logistic.pkl": {
+    "bytes": 3199,
+    "sha256": "d8d83f1a669fd5a9a04cb0472cfca6fb4f968a7c36b92ea94e57c610f84c6d37"
+  }
+}

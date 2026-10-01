@@ -1,0 +1,225 @@
+{
+  "selected": "lightgbm",
+  "models": {
+    "logistic": {
+      "tune": {
+        "threshold": 0.6950000000000001,
+        "n_entities": 2499,
+        "macro_f0_5": 0.9041142416942849,
+        "macro_precision": 0.9434640522875817,
+        "macro_recall": 0.8305827092741859,
+        "singleton_accuracy": 0.8455882352941176,
+        "singleton_count": 136,
+        "zero_match_rate": 0.06282513005202081,
+        "average_links": 2.9451780712284914,
+        "prediction_counts": {
+          "1": 277,
+          "4": 473,
+          "2": 574,
+          "3": 622,
+          "5": 396,
+          "0": 157
+        },
+        "false_positive_links": 291,
+        "false_negative_links": 1513
+      },
+      "thresholds": [
+        0.6950000000000001,
+        0.6950000000000001
+      ],
+      "parameters": 241,
+      "config": {
+        "C": 1,
+        "max_iter": 250
+      },
+      "seconds": 10.609567100000277,
+      "memory": {
+        "peak_rss_bytes": 1922478080,
+        "rss_bytes": 1143087104
+      }
+    },
+    "lightgbm": {
+      "tune": {
+        "threshold": 0.642,
+        "n_entities": 2499,
+        "macro_f0_5": 0.9470378475369731,
+        "macro_precision": 0.9674112502143715,
+        "macro_recall": 0.9076554431296329,
+        "singleton_accuracy": 0.8970588235294118,
+        "singleton_count": 136,
+        "zero_match_rate": 0.056422569027611044,
+        "average_links": 3.1924769907963184,
+        "prediction_counts": {
+          "2": 504,
+          "4": 498,
+          "3": 610,
+          "1": 216,
+          "0": 141,
+          "5": 530
+        },
+        "false_positive_links": 205,
+        "false_negative_links": 809
+      },
+      "thresholds": [
+        0.642,
+        0.642
+      ],
+      "parameters": 90600,
+      "config": {
+        "objective": "binary",
+        "metric": "binary_logloss",
+        "learning_rate": 0.04,
+        "num_leaves": 31,
+        "min_data_in_leaf": 30,
+        "lambda_l2": 5,
+        "feature_fraction": 0.9,
+        "verbosity": -1,
+        "num_threads": 4,
+        "seed": 20260926,
+        "deterministic": true,
+        "force_col_wise": true
+      },
+      "seconds": 61.9258686999965,
+      "memory": {
+        "peak_rss_bytes": 1922478080,
+        "rss_bytes": 1150009344
+      }
+    },
+    "xgboost": {
+      "tune": {
+        "threshold": 0.7070000000000001,
+        "n_entities": 2499,
+        "macro_f0_5": 0.9462083170261413,
+        "macro_precision": 0.9701332914118029,
+        "macro_recall": 0.898663274833743,
+        "singleton_accuracy": 0.9191176470588235,
+        "singleton_count": 136,
+        "zero_match_rate": 0.0584233693477391,
+        "average_links": 3.145658263305322,
+        "prediction_counts": {
+          "2": 525,
+          "5": 514,
+          "3": 609,
+          "4": 482,
+          "1": 223,
+          "0": 146
+        },
+        "false_positive_links": 176,
+        "false_negative_links": 897
+      },
+      "thresholds": [
+        0.7070000000000001,
+        0.7070000000000001
+      ],
+      "parameters": 202070,
+      "config": {
+        "objective": "binary:logistic",
+        "eval_metric": "logloss",
+        "learning_rate": 0.05,
+        "max_depth": 6,
+        "min_child_weight": 5,
+        "reg_lambda": 5,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "tree_method": "hist",
+        "n_jobs": 4,
+        "random_state": 20260926,
+        "n_estimators": 600,
+        "early_stopping_rounds": 60
+      },
+      "seconds": 131.75321259999328,
+      "memory": {
+        "peak_rss_bytes": 1922478080,
+        "rss_bytes": 1282560000
+      }
+    }
+  },
+  "features": [
+    "name_exact",
+    "suffix_exact",
+    "name_gram_jaccard",
+    "name_tfidf",
+    "name_token_jaccard",
+    "name_containment",
+    "name_edit",
+    "name_length_ratio",
+    "name_token_count_delta",
+    "name_prefix",
+    "name_suffix",
+    "acronym",
+    "script_compatible",
+    "name_frequency",
+    "suffix_frequency",
+    "address_exact",
+    "address_gram_jaccard",
+    "address_token_jaccard",
+    "address_containment",
+    "address_length_ratio",
+    "numeric_jaccard",
+    "numeric_conflict",
+    "postal_agreement",
+    "postal_conflict",
+    "missing_q_address",
+    "missing_c_address",
+    "name_address_product",
+    "exact_name_address_conflict",
+    "name_missing_address",
+    "weak_name_strong_address",
+    "country_equal",
+    "source3",
+    "candidate_density",
+    "accent_name_exact",
+    "unicode_name_exact",
+    "exact_name_hit",
+    "exact_name_inverse_rank",
+    "exact_name_score",
+    "suffix_name_hit",
+    "suffix_name_inverse_rank",
+    "suffix_name_score",
+    "rare_name_token_hit",
+    "rare_name_token_inverse_rank",
+    "rare_name_token_score",
+    "name_char_tfidf_hit",
+    "name_char_tfidf_inverse_rank",
+    "name_char_tfidf_score",
+    "address_token_hit",
+    "address_token_inverse_rank",
+    "address_token_score",
+    "address_key_hit",
+    "address_key_inverse_rank",
+    "address_key_score",
+    "numeric_address_hit",
+    "numeric_address_inverse_rank",
+    "numeric_address_score",
+    "address_char_hit",
+    "address_char_inverse_rank",
+    "address_char_score",
+    "name_token_sort",
+    "name_partial",
+    "name_content_ratio",
+    "name_content_subset",
+    "translit_ratio",
+    "translit_token_set",
+    "address_token_set",
+    "address_partial",
+    "address_alpha_ratio",
+    "numeric_fuzzy",
+    "name_best_margin",
+    "address_best_margin",
+    "translit_char_hit",
+    "translit_char_inverse_rank",
+    "translit_char_score",
+    "missing_name_char_hit",
+    "missing_name_char_inverse_rank",
+    "missing_name_char_score",
+    "joint_name_address_hit",
+    "joint_name_address_inverse_rank",
+    "joint_name_address_score"
+  ],
+  "seconds": 221.13068400000338,
+  "memory": {
+    "peak_rss_bytes": 1922478080,
+    "rss_bytes": 1271721984
+  },
+  "split_sha256": "61b047387be730e81580a125897656a666d2e1095cf37ae6988ffc99a3c78777"
+}

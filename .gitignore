@@ -1,0 +1,38 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+artifacts/v2/packages/
+
+# Challenge data (not redistributable)
+dataset/
+*.tsv
+!distributed/shard_manifest.tsv
+
+# Large generated indexes, caches and outputs
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.npz
+*.parquet
+*.pkl
+*.jsonl.gz
+*_idf.json
+output/
+submissions/
+distributed/shared_test_indexes/
+distributed/index_build_intermediates/
+distributed/s1_shards/
+distributed/results/
+distributed/deadline/
+distributed/recovery/*/
+artifacts/v1/*/
+!artifacts/v1/run_6000/
+artifacts/v1/run_6000/*
+!artifacts/v1/run_6000/code_fingerprints.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

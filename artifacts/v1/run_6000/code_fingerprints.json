@@ -1,0 +1,19 @@
+{
+  "code\\business_entity_resolution\\LICENSE": "f5eee63fb76b6585d82d7c3e7e7c5136331316c3256e72cb6bdf587f234d20de",
+  "code\\business_entity_resolution\\README.md": "62c34d182ce76e1a2591a3d39d22a3e802016337621ed03890a48be28fd505b1",
+  "code\\business_entity_resolution\\reproduce.ps1": "58a0793241e2332e972280821fe096f57c3f21253782b7b7a95e074bb883510c",
+  "code\\business_entity_resolution\\requirements.txt": "0fd7ea0b2fd8f39c29dbf0356faefc9c5d98224ccd6c04f84529f65d8ebb2813",
+  "code\\business_entity_resolution\\src\\core.py": "cf95fe49b6e69e567a1cc0fc433b84c6a271eaffe4bf7f8f535509567726da67",
+  "code\\business_entity_resolution\\src\\experiment.py": "f2f13d009a98264c64a4e05ed63cb056991f230ed5cfd76b2aa28f9ac032d8ec",
+  "code\\business_entity_resolution\\src\\finish_when_ready.py": "a7e3a71be24da3dc806097f7b4f6c6fce7b47cc43e0680b3764e36eb4972abd0",
+  "code\\business_entity_resolution\\src\\models.py": "f8a79843d5dcfa3daed269042131292e6e652eb9e42123fde1e1ec1bee5c269c",
+  "code\\business_entity_resolution\\src\\prepare.py": "60b9d6e0600f23172dba1d424959de307326a749175fb63e2d81aed01027ddd8",
+  "code\\business_entity_resolution\\src\\report.py": "248f6a1f0df87bc3403b237d699c626c1f2631d3b01cf6b086988f132c8d060b",
+  "code\\business_entity_resolution\\src\\retrieval.py": "2986ee89351d0e09dee209977c8a52cd708f3d59a187a5855c736755cb00ce61",
+  "code\\business_entity_resolution\\src\\run_retrieval.py": "3ac25340b5eb63b17d8849dd410fedc1219b12d386b394d3fb83ccb40342c6ab",
+  "code\\business_entity_resolution\\src\\test_core.py": "362d4ab63ee18ec123b877db1df5a9444f392a7fb4620fdf93795dce59ce9663",
+  "code\\business_entity_resolution\\src\\test_evaluation.py": "2d378fccdd9b5311b64c0ea78bbdfaf957d8e86a0e9b809943e459e1af9b4225",
+  "code\\business_entity_resolution\\src\\test_models.py": "56624ce4a795fa94254eb5059c036e5ffb9e1705f9b582eb258b915ae27c0610",
+  "code\\business_entity_resolution\\src\\test_pipeline.py": "4dba64d16f78917b6a23b4d83aa57b5549d37fcdd7e9ff49ec67a9033a337659",
+  "code\\business_entity_resolution\\src\\verify.py": "122075414a282997d69e3c3d3185fef6df2712e58f381b06f9fa4f184842ca6d"
+}
